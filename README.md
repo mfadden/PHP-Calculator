@@ -8,14 +8,14 @@
     <!--This is the calculater we see on the website-->
     <form method="get">
       <input type="text" name="num1" placeholder="Number 1">
-      <input type="text" name="num2" placeholder="Number 2">
       <select name="operator">
-        <option>None</option>
+        <option>Select option</option>
         <option>Add</option>
         <option>Subtract</option>
         <option>Multiply</option>
         <option>Divide</option>
       </select>
+      <input type="text" name="num2" placeholder="Number 2">
       <br>
       <button type="submit" name="submit">Calculate</button>
     </form>
