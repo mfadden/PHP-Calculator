@@ -9,6 +9,7 @@
     <!--This is the calculater we see on the website-->
     <form method="get">
       <input type="text" name="num1" placeholder="Number 1">
+        <br>
       <select name="operator">
         <option>Select option</option>
         <option>Add</option>
@@ -16,6 +17,7 @@
         <option>Multiply</option>
         <option>Divide</option>
       </select>
+        <br>
       <input type="text" name="num2" placeholder="Number 2">
       <br>
       <button type="submit" name="submit">Calculate</button>
