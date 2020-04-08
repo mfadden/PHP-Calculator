@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>PHP Calculator</title>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
   </head>
   <body>
     <!--This is the calculater we see on the website-->
