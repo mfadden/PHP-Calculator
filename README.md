@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>PHP Calculator</title>
   </head>
   <body>
     <!--This is the calculater we see on the website-->
