@@ -20,21 +20,14 @@
       <br>
       <button type="submit" name="submit">Calculate</button>
     </form>
-
     <p>The answer is:</p>
     <?php
-      //This is the PHP script that calculates in the background
-
-      //First we check if the button has been clicked
       if (isset($_GET['submit'])) {
-        //Then we get all the data from the form
         $result1 = $_GET['num1'];
         $result2 = $_GET['num2'];
         $operator = $_GET['operator'];
-
-        //Here we check which operator the user chose, and we perform the calculation
         switch ($operator) {
-          case "None":
+          case "Select option":
             echo "You need to select an operator!";
             break;
           case "Add":
